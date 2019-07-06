@@ -13,7 +13,7 @@ module Services
 
     def call
       visit_page
-      ('A'..'B').each do |letter|
+      ('A'..'Z').each do |letter|
         fill_in_form(letter)
         parse_table
       end
