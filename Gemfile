@@ -40,6 +40,7 @@ gem 'activeadmin'
 gem 'dotenv-rails'
 gem 'mechanize'
 gem 'rb-readline'
+gem 'redis'
 gem 'sidekiq'
 gem 'whenever', require: false
 
